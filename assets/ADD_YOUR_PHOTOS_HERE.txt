@@ -1,0 +1,1 @@
+Add your photos here, named photo-1.jpg, photo-2.jpg, photo-3.jpg, and photo-4.jpg.\nYou can use .png or .webp too, but update the matching filenames in index.html.\nUse photos you have permission to share. For GitHub Pages, these files will be public.\n

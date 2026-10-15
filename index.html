@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff4f3" />
+  <title>For All Time, Always ♡</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <main>	
+<!-- PASSWORD SCREEN -->
+<section class="screen gate-screen" id="gateScreen">
+  <div class="gate-card">
+    <div class="tiny-heart" aria-hidden="true">♡</div>
+
+    <p class="eyebrow">A little world, just for you</p>
+
+    <h1>Some things are<br><em>only ours.</em></h1>
+
+    <p class="gate-copy">
+      There’s something waiting on the other side.
+    </p>
+
+    <form id="passwordForm" autocomplete="off">
+      <label for="datePassword">Choose our special date ♡</label>
+
+      <input
+        id="datePassword"
+        name="datePassword"
+        type="date"
+        required
+        aria-describedby="dateHint passwordError"
+      />
+
+      <p class="hint" id="dateHint">
+        Hint: the day we got together ♡
+      </p>
+
+      <p
+        class="error"
+        id="passwordError"
+        role="status"
+        aria-live="polite"
+      ></p>
+
+      <button type="submit">
+        Open <span aria-hidden="true">→</span>
+      </button>
+    </form>
+
+    <p class="from-line">
+      Made with love, from my side of the distance ♡
+    </p>
+  </div>
+</section>
+```
+
+
+    <!-- SURPRISE SCREEN -->
+    <section class="screen story-screen hidden" id="storyScreen" aria-hidden="true">
+      <header class="story-heading">
+        <p class="eyebrow">For my favourite person</p>
+        <h2>49 days of <em>us</em> ♡</h2>
+        <p class="subtitle">Different places. One very special little story.</p>
+      </header>
+
+      <div class="photo-stage" aria-label="A few favourite photos">
+        <!-- Replace photo-1.jpg etc. with your own images in the assets folder.
+             You can use 3 or 4 photos; remove a photo-card block if you want 3. -->
+        <figure class="photo-card photo-one">
+          <img src="assets/photo-1.jpg" alt="A favourite photo of you" />
+          <figcaption>my favourite smile</figcaption>
+        </figure>
+        <figure class="photo-card photo-two">
+          <img src="assets/photo-2.jpg" alt="A favourite memory" />
+          <figcaption>my little sunshine</figcaption>
+        </figure>
+        <figure class="photo-card photo-three">
+          <img src="assets/photo-3.jpg" alt="A photo that makes me happy" />
+          <figcaption>beautiful, always</figcaption>
+        </figure>
+        <figure class="photo-card photo-four">
+          <img src="assets/photo-4.png" alt="Another favourite photo" />
+          <figcaption>my favourite person</figcaption>
+        </figure>
+      </div>
+
+      <div class="letter-wrap">
+        <div class="letter-top"><span>♡</span><span>just for you</span><span>♡</span></div>
+        <article class="love-letter" id="loveLetter">
+          <p class="letter-kicker">To my JAANU,</p>
+          <h3>Happy 49 days, my love.</h3>
+          <p>It’s a little funny, isn’t it? We can be miles apart, living our own days in different places, and yet we still find our way into so many of our moments.</p>
+          <p>You’re in the songs I want to share, the little things I can’t wait to tell you, the smile that appears when your name lights up my screen, and the quiet times when I wish you were right here.</p>
+          <p>These 49 days may only be the beginning, but they already mean so much to me. Thank you for being you—for your sweetness, your time, and for making something as simple as a message feel special.</p>
+          <p>I wish I could be there to celebrate this with you properly: to be able to see your smile in person, to hold your hand, and to tell you all of this without a screen between us. Until that day, let this little page be a tiny hug travelling from me to you.</p>
+          <p>Whatever the miles look like today, I’m happy that our paths crossed on 27 August. And if I could go back to that day, I’d still choose this little beginning with you.</p>
+          <p>Here’s to more silly conversations, more memories, more reasons to smile, and all the days we haven’t lived yet.</p>
+	<p>Pull of a century?</p>
+          <p class="signoff">Happy 49 days, sweetheart.<br />You’re very special to me. ♡</p>
+          <p class="signature">— Yours, with all my love</p>
+        </article>
+      </div>
+
+      <footer class="footer-note">Across every mile, a little closer to you. ♡</footer>
+      <button class="replay-button" id="replayButton" type="button">Read it again ↺</button>
+    </section>
+  </main>
+
+  <audio id="backgroundMusic" preload="none" loop>
+    <!-- Add your own music file at assets/our-song.mp3 and uncomment the line below. -->
+    <source src="assets/our-song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
